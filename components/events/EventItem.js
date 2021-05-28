@@ -21,7 +21,7 @@ const EventItem = (props) => {
         <li className={styles.item}>
             <img src={`/${image}`} alt={title}/>
             <div className={styles.content}>
-                <div classname={styles.summary}>
+                <div className={styles.summary}>
                     <h2>{title}</h2>
                     <div className={styles.date}>
                         <DateIcon/>
